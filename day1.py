@@ -1,22 +1,8 @@
-Understanding Hello World Program in Python
-The following is a simple program that displays the message “Hello, World!” on the screen.
-
-
-
-
 # This is a comment. It will not be executed.
 print("Hello, World!")
 
 Output
 Hello, World!
-Python Applications and Advantages
-Last Updated : 03 Oct, 2025
-Python is a high-level, interpreted, and general-purpose dynamic programming language that focuses on code readability. It generally has small programs when compared to Java and C.
-
-
-Take Multiple Input in Python
-We are taking multiple input from the user in a single line, splitting the values entered by the user into separate variables for each value using the split() method. Then, it prints the values with corresponding labels, either two or three, based on the number of inputs provided by the user.
-
 
 # taking two inputs at a time
 x, y = input("Enter two values: ").split()
@@ -37,17 +23,6 @@ Enter three values: 5 10 15
 Total number of students:  5
 Number of boys is :  10     
 Number of girls is :  15  
-
-
-
-
-Python Variables
-Last Updated : 15 Oct, 2025
-In Python, variables are used to store data that can be referenced and manipulated during program execution. A variable is essentially a name that is assigned to a value.
-
-Unlike Java and many other languages, Python variables do not require explicit declaration of type.
-The type of the variable is inferred based on the value assigned.
-
 
 
 # Variable 'x' stores the integer value 5
@@ -171,8 +146,8 @@ parity = "even" if n % 2 == 0 else "odd"
 print("n is", n, "->", parity)
 print()
 
-import keyword
 
 # printing all keywords at once using "kwlist()"
 print("The list of keywords is : ")
 print(keyword.kwlist)
+
