@@ -171,3 +171,8 @@ parity = "even" if n % 2 == 0 else "odd"
 print("n is", n, "->", parity)
 print()
 
+import keyword
+
+# printing all keywords at once using "kwlist()"
+print("The list of keywords is : ")
+print(keyword.kwlist)
